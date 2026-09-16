@@ -135,12 +135,6 @@ Older public repositories here are coursework and tutorial exercises and are arc
 <p align="left">
   <a href="https://github.com/vramaswamy4">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=vramaswamy4&show_icons=true&count_private=true&hide_border=true&theme=github_dark&hide_title=true" />
-      <img src="https://github-readme-stats.vercel.app/api?username=vramaswamy4&show_icons=true&count_private=true&hide_border=true&hide_title=true" alt="GitHub stats" height="165" />
-    </picture>
-  </a>
-  <a href="https://github.com/vramaswamy4">
-    <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=vramaswamy4&hide_border=true&theme=github-dark-blue" />
       <img src="https://streak-stats.demolab.com/?user=vramaswamy4&hide_border=true" alt="GitHub streak" height="165" />
     </picture>
