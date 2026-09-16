@@ -128,17 +128,4 @@ Most of the code was written with AI coding agents (Claude Code) running concurr
 
 Older public repositories here are coursework and tutorial exercises and are archived.
 
----
-
-## GitHub
-
-<p align="left">
-  <a href="https://github.com/vramaswamy4">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=vramaswamy4&hide_border=true&theme=github-dark-blue" />
-      <img src="https://streak-stats.demolab.com/?user=vramaswamy4&hide_border=true" alt="GitHub streak" height="165" />
-    </picture>
-  </a>
-</p>
-
 <p align="right"><a href="#top">Back to top ↑</a></p>
