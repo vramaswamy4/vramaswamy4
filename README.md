@@ -2,7 +2,7 @@
 
 # Hi, I'm Vinith Ramaswamy 👋
 
-### Software Engineer · Backend, Platform & Payments
+### Software Engineer · Founder of JustBook
 
 Founder and sole engineer of [JustBook](https://justbookapp.com), a booking and payments platform for salons, barbershops, and other appointment businesses, live since August 2026 on web, iOS, and Android. I took it from idea to production alone in 15 months: product, architecture, code, payments, and operations.
 
