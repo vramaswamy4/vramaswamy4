@@ -123,7 +123,8 @@ Most of the code was written with AI coding agents (Claude Code) running concurr
 ## What I can show
 
 - **[justbookapp.com](https://justbookapp.com)**: the product, the public docs, and the example booking pages.
-- **Coming soon**: a Go + Kafka + Cassandra streaming pipeline on Kubernetes, and JustBook's availability engine extracted as a tested library.
+- **[justbook-availability-engine](https://github.com/vramaswamy4/justbook-availability-engine)**: JustBook's availability engine, published from the private codebase. The code that decides which times can be booked (time zones, DST, rosters, buffers, holds), the PostgreSQL advisory lock that prevents double booking, 63 tests, a runnable example, and a technical write-up of the whole system.
+- **Coming soon**: a Go + Kafka + Cassandra streaming pipeline on Kubernetes.
 - **[neurosolis-preview](https://github.com/vramaswamy4/neurosolis-preview)**: a static site built for a biotech founding team (contract, 2026).
 
 Older public repositories here are coursework and tutorial exercises and are archived.
