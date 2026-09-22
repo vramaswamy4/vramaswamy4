@@ -4,7 +4,7 @@
 
 Software engineer in San Jose, CA. Backend, distributed systems, web and mobile.
 
-I graduated from the University of Wisconsin–Madison in May 2026 with a B.S. in Computer Science and a B.S. in Data Science (3.96 GPA, three years). Since May 2025 I have been the founder and only engineer of [JustBook](https://justbookapp.com), a booking and payments platform for appointment businesses that is live on web, iOS and Android. Alongside it I built [Flagdown](https://github.com/vramaswamy4/flagdown), a ride-sharing backend in Go microservices on Kubernetes.
+I graduated from the University of Wisconsin–Madison in May 2026 with a B.S. in Computer Science and a B.S. in Data Science (3.96 GPA, three years). Since May 2025 I have been the founder and only engineer of [JustBook](https://justbookapp.com), a booking and payments platform for appointment businesses that is live on web, iOS and Android. Alongside it I built [Flagdown](https://github.com/vramaswamy4/flagdown), a full-stack ride-sharing app: Go microservices on Kubernetes behind a Next.js web app.
 
 I'm looking for a software engineering role in the San Francisco Bay Area: backend, platform, payments or full stack. U.S. permanent resident, no sponsorship needed.
 
@@ -14,7 +14,7 @@ I'm looking for a software engineering role in the San Francisco Bay Area: backe
 
 | Project | What it is | Links |
 |---|---|---|
-| **Flagdown** | Ride-sharing backend: Go microservices on Kubernetes with gRPC, RabbitMQ and a Kafka → Redis driver-location pipeline. Prometheus and Grafana metrics, OpenTelemetry traces, a chaos test that kills a pod mid-ride, and a live operations map (MapLibre, deck.gl, H3). | [repo](https://github.com/vramaswamy4/flagdown) · [write-up](https://vramaswamy4.github.io/projects/flagdown/) |
+| **Flagdown** | Full-stack ride-sharing app: Go microservices on Kubernetes with gRPC, RabbitMQ and a Kafka → Redis driver-location pipeline, behind a Next.js web app for riders, drivers and operations. Prometheus and Grafana metrics, OpenTelemetry traces, a chaos test that kills a pod mid-ride, and a live operations map (MapLibre, deck.gl, H3). | [repo](https://github.com/vramaswamy4/flagdown) · [write-up](https://vramaswamy4.github.io/projects/flagdown/) |
 | **JustBook** | Multi-tenant booking and payments platform: Flask and PostgreSQL API, React 19 app, Capacitor iOS and Android apps, Stripe Connect, Billing and Terminal with Tap to Pay. Built and operated alone. The code is private; the product is public. | [site](https://justbookapp.com) · [write-up](https://vramaswamy4.github.io/projects/justbook) · [App Store](https://apps.apple.com/us/app/justbook-biz/id6803725866) · [Google Play](https://play.google.com/store/apps/details?id=com.justbookapp.business) |
 | **justbook-availability-engine** | The scheduling code from JustBook, published to be read and run: the part that decides which times can be booked (time zones, DST, rosters, time off, buffers, holds) and the PostgreSQL advisory lock that prevents double booking. 63 tests, a runnable example and a write-up of the whole system. | [repo](https://github.com/vramaswamy4/justbook-availability-engine) · [write-up](https://vramaswamy4.github.io/projects/justbook) |
 | **neurosolis-preview** | Static investor-facing site built for a biotech founding team (contract, 2026). | [repo](https://github.com/vramaswamy4/neurosolis-preview) |
