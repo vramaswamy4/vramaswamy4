@@ -15,7 +15,7 @@ B.S. Computer Science and B.S. Data Science, University of Wisconsin–Madison, 
 - ✉️ &nbsp;[vinithramaswamy@gmail.com](mailto:vinithramaswamy@gmail.com)
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/vinith-ramaswamy-6a5964200" target="_blank" rel="noreferrer">
+  <a href="https://www.linkedin.com/in/vinithramaswamy" target="_blank" rel="noreferrer">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
@@ -123,6 +123,7 @@ Most of the code was written with AI coding agents (Claude Code) running concurr
 ## What I can show
 
 - **[justbookapp.com](https://justbookapp.com)**: the product, the public docs, and the example booking pages.
+- **[vramaswamy4.github.io](https://vramaswamy4.github.io)**: my portfolio, with full write-ups of each project: architecture, why each part of the stack is there, the main decisions, and what I learned.
 - **[justbook-availability-engine](https://github.com/vramaswamy4/justbook-availability-engine)**: JustBook's availability engine, published from the private codebase. The code that decides which times can be booked (time zones, DST, rosters, buffers, holds), the PostgreSQL advisory lock that prevents double booking, 63 tests, a runnable example, and a technical write-up of the whole system.
 - **Coming soon**: a Go + Kafka + Cassandra streaming pipeline on Kubernetes.
 - **[neurosolis-preview](https://github.com/vramaswamy4/neurosolis-preview)**: a static site built for a biotech founding team (contract, 2026).
