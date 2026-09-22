@@ -1,133 +1,107 @@
 <a name="top"></a>
 
-# Hi, I'm Vinith Ramaswamy 👋
+# Vinith Ramaswamy
 
-### Software Engineer · Founder of JustBook
+Software engineer in San Jose, CA. Backend, distributed systems, web and mobile.
 
-Founder and sole engineer of [JustBook](https://justbookapp.com), a booking and payments platform for salons, barbershops, and other appointment businesses, live since August 2026 on web, iOS, and Android. I took it from idea to production alone in 15 months: product, architecture, code, payments, and operations.
+I graduated from the University of Wisconsin–Madison in May 2026 with a B.S. in Computer Science and a B.S. in Data Science (3.96 GPA, three years). Since May 2025 I have been the founder and only engineer of [JustBook](https://justbookapp.com), a booking and payments platform for appointment businesses that is live on web, iOS and Android. Alongside it I built [ride-dispatch](https://github.com/vramaswamy4/ride-dispatch), a ride-sharing backend in Go microservices on Kubernetes.
 
-B.S. Computer Science and B.S. Data Science, University of Wisconsin–Madison, 3.96 GPA, graduated with distinction in three years.
+I'm looking for a software engineering role in the San Francisco Bay Area: backend, platform, payments or full stack. U.S. permanent resident, no sponsorship needed.
 
-- 🌍 &nbsp;Based in **San Jose, CA**, open to backend, platform, and payments roles, in person
-- 🚀 &nbsp;Currently working on [JustBook](https://justbookapp.com)
-- 🧠 &nbsp;Currently learning **Go, Kubernetes, and distributed streaming systems**
-- 🤝 &nbsp;Open to collaborating on backend, platform, and payments infrastructure
-- ✉️ &nbsp;[vinithramaswamy@gmail.com](mailto:vinithramaswamy@gmail.com)
+**[Portfolio and project write-ups](https://vramaswamy4.github.io)** · [LinkedIn](https://www.linkedin.com/in/vinithramaswamy) · [CV (PDF)](https://vramaswamy4.github.io/Vinith_Ramaswamy_CV.pdf) · [vinithramaswamy@gmail.com](mailto:vinithramaswamy@gmail.com)
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/vinithramaswamy" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" />
-    </picture>
-  </a>
-  &nbsp;
-  <a href="https://www.github.com/vramaswamy4" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" />
-    </picture>
-  </a>
-</p>
+## Projects
 
----
+| Project | What it is | Links |
+|---|---|---|
+| **ride-dispatch** | Ride-sharing backend: Go microservices on Kubernetes with gRPC, RabbitMQ and a Kafka → Redis driver-location pipeline. Prometheus and Grafana metrics, OpenTelemetry traces, a chaos test that kills a pod mid-ride, and a live operations map (MapLibre, deck.gl, H3). | [repo](https://github.com/vramaswamy4/ride-dispatch) · [write-up](https://vramaswamy4.github.io/projects/ride-dispatch) |
+| **JustBook** | Multi-tenant booking and payments platform: Flask and PostgreSQL API, React 19 app, Capacitor iOS and Android apps, Stripe Connect, Billing and Terminal with Tap to Pay. Built and operated alone. The code is private; the product is public. | [site](https://justbookapp.com) · [write-up](https://vramaswamy4.github.io/projects/justbook) · [App Store](https://apps.apple.com/app/justbook/id6743577013) · [Google Play](https://play.google.com/store/apps/details?id=com.justbook.app) |
+| **justbook-availability-engine** | The scheduling code from JustBook, published to be read and run: the part that decides which times can be booked (time zones, DST, rosters, time off, buffers, holds) and the PostgreSQL advisory lock that prevents double booking. 63 tests, a runnable example and a write-up of the whole system. | [repo](https://github.com/vramaswamy4/justbook-availability-engine) · [write-up](https://vramaswamy4.github.io/projects/justbook) |
+| **neurosolis-preview** | Static investor-facing site built for a biotech founding team (contract, 2026). | [repo](https://github.com/vramaswamy4/neurosolis-preview) |
+| **learn-go** | Small exercises from learning Go. | [repo](https://github.com/vramaswamy4/learn-go) |
+
+Coursework with a public write-up: [Big Data Systems](https://vramaswamy4.github.io/about) (Kafka, Spark, Cassandra, HDFS, gRPC, BigQuery) and Minirel (a buffer manager and heap file manager in C++). The older repositories here (CSS101, CSS201, JS201, flask101, ppap) are tutorial exercises from earlier years.
 
 ## Skills
 
 **Languages**
 
-<p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" title="Python" /></a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" title="JavaScript" /></a>
-<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" title="Java" /></a>
-<a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" title="C++" /></a>
-<a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" title="C" /></a>
-<a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rlang-colored.svg" width="36" height="36" alt="R" title="R" /></a>
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash-colored.svg" width="36" height="36" alt="Bash" title="Bash" /></a>
+<p>
+<a href="https://www.python.org/"><img src="https://cdn.simpleicons.org/python" width="36" height="36" alt="Python" title="Python" /></a>&nbsp;
+<a href="https://go.dev/"><img src="https://cdn.simpleicons.org/go" width="36" height="36" alt="Go" title="Go" /></a>&nbsp;
+<a href="https://www.typescriptlang.org/"><img src="https://cdn.simpleicons.org/typescript" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>&nbsp;
+<a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://cdn.simpleicons.org/javascript" width="36" height="36" alt="JavaScript" title="JavaScript" /></a>&nbsp;
+<a href="https://openjdk.org/"><img src="https://cdn.simpleicons.org/openjdk/_/fff" width="36" height="36" alt="Java" title="Java" /></a>&nbsp;
+<a href="https://isocpp.org/"><img src="https://cdn.simpleicons.org/cplusplus" width="36" height="36" alt="C++" title="C++" /></a>&nbsp;
+<a href="https://en.cppreference.com/w/c"><img src="https://cdn.simpleicons.org/c" width="36" height="36" alt="C" title="C" /></a>&nbsp;
+<a href="https://www.r-project.org/"><img src="https://cdn.simpleicons.org/r" width="36" height="36" alt="R" title="R" /></a>&nbsp;
+<a href="https://www.gnu.org/software/bash/"><img src="https://cdn.simpleicons.org/gnubash" width="36" height="36" alt="Bash" title="Bash" /></a>
 </p>
 
-**Backend, data & infrastructure**
+Python, Go, TypeScript, JavaScript, SQL, Java, C++, C, R, Bash
 
-<p align="left">
-<a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored.svg" width="36" height="36" alt="Flask" title="Flask" /></a>
-<a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" title="PostgreSQL" /></a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" title="MySQL" /></a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" title="Docker" /></a>
-<a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" title="Linux" /></a>
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="AWS" title="AWS" /></a>
-<a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg" width="36" height="36" alt="Google Cloud" title="Google Cloud" /></a>
-<a href="https://render.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/render-colored.svg" width="36" height="36" alt="Render" title="Render" /></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" title="Git" /></a>
+**Backend and data**
+
+<p>
+<a href="https://flask.palletsprojects.com/"><img src="https://cdn.simpleicons.org/flask/_/fff" width="36" height="36" alt="Flask" title="Flask" /></a>&nbsp;
+<a href="https://www.sqlalchemy.org/"><img src="https://cdn.simpleicons.org/sqlalchemy" width="36" height="36" alt="SQLAlchemy" title="SQLAlchemy" /></a>&nbsp;
+<a href="https://www.postgresql.org/"><img src="https://cdn.simpleicons.org/postgresql" width="36" height="36" alt="PostgreSQL" title="PostgreSQL" /></a>&nbsp;
+<a href="https://www.mysql.com/"><img src="https://cdn.simpleicons.org/mysql" width="36" height="36" alt="MySQL" title="MySQL" /></a>&nbsp;
+<a href="https://www.mongodb.com/"><img src="https://cdn.simpleicons.org/mongodb" width="36" height="36" alt="MongoDB" title="MongoDB" /></a>&nbsp;
+<a href="https://redis.io/"><img src="https://cdn.simpleicons.org/redis" width="36" height="36" alt="Redis" title="Redis" /></a>&nbsp;
+<a href="https://kafka.apache.org/"><img src="https://cdn.simpleicons.org/apachekafka/_/fff" width="36" height="36" alt="Apache Kafka" title="Apache Kafka" /></a>&nbsp;
+<a href="https://www.rabbitmq.com/"><img src="https://cdn.simpleicons.org/rabbitmq" width="36" height="36" alt="RabbitMQ" title="RabbitMQ" /></a>&nbsp;
+<a href="https://spark.apache.org/"><img src="https://cdn.simpleicons.org/apachespark" width="36" height="36" alt="Apache Spark" title="Apache Spark" /></a>&nbsp;
+<a href="https://cassandra.apache.org/"><img src="https://cdn.simpleicons.org/apachecassandra" width="36" height="36" alt="Apache Cassandra" title="Apache Cassandra" /></a>&nbsp;
+<a href="https://hadoop.apache.org/"><img src="https://cdn.simpleicons.org/apachehadoop" width="36" height="36" alt="Hadoop HDFS" title="Hadoop HDFS" /></a>&nbsp;
+<a href="https://cloud.google.com/bigquery"><img src="https://cdn.simpleicons.org/googlebigquery" width="36" height="36" alt="BigQuery" title="BigQuery" /></a>
 </p>
 
-<p align="left">
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
-<img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Spark" />
-<img src="https://img.shields.io/badge/Cassandra-1287B1?style=flat-square&logo=apachecassandra&logoColor=white" alt="Cassandra" />
-<img src="https://img.shields.io/badge/HDFS-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black" alt="HDFS" />
-<img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white" alt="gRPC" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-<img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery" />
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
-<img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" alt="Sentry" />
+Flask, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Redis, Kafka, RabbitMQ, gRPC, Protocol Buffers, REST APIs, WebSockets, Spark, Cassandra, HDFS, BigQuery
+
+**Infrastructure**
+
+<p>
+<a href="https://www.docker.com/"><img src="https://cdn.simpleicons.org/docker" width="36" height="36" alt="Docker" title="Docker" /></a>&nbsp;
+<a href="https://kubernetes.io/"><img src="https://cdn.simpleicons.org/kubernetes" width="36" height="36" alt="Kubernetes" title="Kubernetes" /></a>&nbsp;
+<a href="https://www.linux.org/"><img src="https://cdn.simpleicons.org/linux" width="36" height="36" alt="Linux" title="Linux" /></a>&nbsp;
+<a href="https://github.com/features/actions"><img src="https://cdn.simpleicons.org/githubactions" width="36" height="36" alt="GitHub Actions" title="GitHub Actions" /></a>&nbsp;
+<a href="https://prometheus.io/"><img src="https://cdn.simpleicons.org/prometheus" width="36" height="36" alt="Prometheus" title="Prometheus" /></a>&nbsp;
+<a href="https://grafana.com/"><img src="https://cdn.simpleicons.org/grafana" width="36" height="36" alt="Grafana" title="Grafana" /></a>&nbsp;
+<a href="https://opentelemetry.io/"><img src="https://cdn.simpleicons.org/opentelemetry/_/fff" width="36" height="36" alt="OpenTelemetry" title="OpenTelemetry" /></a>&nbsp;
+<a href="https://render.com/"><img src="https://cdn.simpleicons.org/render/_/fff" width="36" height="36" alt="Render" title="Render" /></a>&nbsp;
+<a href="https://workers.cloudflare.com/"><img src="https://cdn.simpleicons.org/cloudflareworkers" width="36" height="36" alt="Cloudflare Workers" title="Cloudflare Workers" /></a>&nbsp;
+<a href="https://cloud.google.com/"><img src="https://cdn.simpleicons.org/googlecloud" width="36" height="36" alt="Google Cloud" title="Google Cloud" /></a>&nbsp;
+<a href="https://sentry.io/"><img src="https://cdn.simpleicons.org/sentry/_/fff" width="36" height="36" alt="Sentry" title="Sentry" /></a>
 </p>
 
-**Frontend, mobile & design**
+Docker, Kubernetes, Linux, GitHub Actions, Prometheus, Grafana, OpenTelemetry, Jaeger, Render, Cloudflare Workers, AWS (S3, CloudFront, SES, SNS), Google Cloud, Sentry, Tilt
 
-<p align="left">
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" title="React" /></a>
-<a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="36" height="36" alt="Vite" title="Vite" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" title="HTML5" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" title="CSS3" /></a>
-<a href="https://astro.build/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/astro-colored.svg" width="36" height="36" alt="Astro" title="Astro" /></a>
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" title="Figma" /></a>
-<a href="https://developer.apple.com/xcode/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xcode-colored.svg" width="36" height="36" alt="Xcode" title="Xcode" /></a>
+**Frontend and mobile**
+
+<p>
+<a href="https://react.dev/"><img src="https://cdn.simpleicons.org/react" width="36" height="36" alt="React" title="React" /></a>&nbsp;
+<a href="https://nextjs.org/"><img src="https://cdn.simpleicons.org/nextdotjs/_/fff" width="36" height="36" alt="Next.js" title="Next.js" /></a>&nbsp;
+<a href="https://vitejs.dev/"><img src="https://cdn.simpleicons.org/vite" width="36" height="36" alt="Vite" title="Vite" /></a>&nbsp;
+<a href="https://astro.build/"><img src="https://cdn.simpleicons.org/astro/_/fff" width="36" height="36" alt="Astro" title="Astro" /></a>&nbsp;
+<a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://cdn.simpleicons.org/html5" width="36" height="36" alt="HTML" title="HTML" /></a>&nbsp;
+<a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://cdn.simpleicons.org/css" width="36" height="36" alt="CSS" title="CSS" /></a>&nbsp;
+<a href="https://capacitorjs.com/"><img src="https://cdn.simpleicons.org/capacitor" width="36" height="36" alt="Capacitor" title="Capacitor" /></a>&nbsp;
+<a href="https://www.figma.com/"><img src="https://cdn.simpleicons.org/figma" width="36" height="36" alt="Figma" title="Figma" /></a>
 </p>
 
-**Learning now**
+React, Next.js, Vite, Astro, HTML, CSS, Capacitor (iOS and Android), React Native, Figma
 
-<p align="left">
-<a href="https://go.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg" width="36" height="36" alt="Go" title="Go" /></a>
-<a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/kubernetes-colored.svg" width="36" height="36" alt="Kubernetes" title="Kubernetes" /></a>
+**Testing and payments**
+
+<p>
+<a href="https://pytest.org/"><img src="https://cdn.simpleicons.org/pytest" width="36" height="36" alt="pytest" title="pytest" /></a>&nbsp;
+<a href="https://vitest.dev/"><img src="https://cdn.simpleicons.org/vitest" width="36" height="36" alt="Vitest" title="Vitest" /></a>&nbsp;
+<a href="https://k6.io/"><img src="https://cdn.simpleicons.org/k6" width="36" height="36" alt="k6" title="k6" /></a>&nbsp;
+<a href="https://www.postman.com/"><img src="https://cdn.simpleicons.org/postman" width="36" height="36" alt="Postman" title="Postman" /></a>&nbsp;
+<a href="https://stripe.com/"><img src="https://cdn.simpleicons.org/stripe" width="36" height="36" alt="Stripe" title="Stripe" /></a>
 </p>
 
----
-
-## JustBook, by the numbers
-
-The repositories are private: JustBook is a live commercial product with customer data flows, Stripe and Twilio integrations, and legal documents, so the code stays confidential. The contribution graph on this profile is that work. As of September 2026:
-
-| | |
-|---|---|
-| **Application code** | ~340K lines: Python (Flask, SQLAlchemy) and React 19 |
-| **API** | 632 REST endpoints across 52 Flask blueprints |
-| **Database** | 127-table PostgreSQL 16 schema, 129 Alembic migrations |
-| **Tests** | 5,400+: 3,471 pytest, 1,729 Vitest, 255 Playwright E2E across desktop, iOS, and Android |
-| **CI guards** | 19 custom checks that fail the build: unguarded routes, error-contract violations, doc drift, secrets in logs |
-| **Payments** | Stripe Subscriptions, Connect direct charges, Terminal (S700 and M2 readers), Tap to Pay on iPhone and Android |
-| **Mobile** | JustBook app on iOS and Android (Capacitor): Tap to Pay, push (APNs/FCM), passkeys, barcode scanning |
-| **Infrastructure** | Render (API, worker, cron), Cloudflare Workers, AWS S3, Redis, Sentry, staging mirror, daily off-platform backups |
-| **Messaging** | ZeptoMail, Postmark, Twilio SMS, WhatsApp (34 Meta-approved templates) |
-| **Security** | Server-enforced tenant and branch scoping, RBAC, JWT + TOTP + WebAuthn passkeys, rate limiting, audit log, GDPR privacy-request register |
-| **History** | 2,400+ commits, May 2025 to present, one author |
-
-## How it was built
-
-Most of the code was written with AI coding agents (Claude Code) running concurrently on one shared tree. What made that work was not the agents; it was the rules around them: a 640-line engineering-standards document, 76 dated architecture decisions, and machine-checked invariants that fail the build when a route ships without a guard, a doc drifts from the code it describes, or an error response leaks internals. Every screen was designed in Figma before it was built, and I own every architecture decision in that document.
-
-## What I can show
-
-- **[justbookapp.com](https://justbookapp.com)**: the product, the public docs, and the example booking pages.
-- **[vramaswamy4.github.io](https://vramaswamy4.github.io)**: my portfolio, with full write-ups of each project: architecture, why each part of the stack is there, the main decisions, and what I learned.
-- **[justbook-availability-engine](https://github.com/vramaswamy4/justbook-availability-engine)**: JustBook's availability engine, published from the private codebase. The code that decides which times can be booked (time zones, DST, rosters, buffers, holds), the PostgreSQL advisory lock that prevents double booking, 63 tests, a runnable example, and a technical write-up of the whole system.
-- **Coming soon**: a Go + Kafka + Cassandra streaming pipeline on Kubernetes.
-- **[neurosolis-preview](https://github.com/vramaswamy4/neurosolis-preview)**: a static site built for a biotech founding team (contract, 2026).
-
-Older public repositories here are coursework and tutorial exercises and are archived.
+pytest, Vitest, Playwright, k6, Postman, Stripe (Connect, Billing, Terminal, Tap to Pay), Twilio
 
 <p align="right"><a href="#top">Back to top ↑</a></p>
