@@ -20,7 +20,7 @@ I'm looking for a software engineering role in the San Francisco Bay Area: backe
 | **neurosolis-preview** | Static investor-facing site built for a biotech founding team (contract, 2026). | [repo](https://github.com/vramaswamy4/neurosolis-preview) |
 | **learn-go** | Small exercises from learning Go. | [repo](https://github.com/vramaswamy4/learn-go) |
 
-Coursework with a public write-up: [Big Data Systems](https://vramaswamy4.github.io/about) (Kafka, Spark, Cassandra, HDFS, gRPC, BigQuery) and Minirel (a buffer manager and heap file manager in C++). The older repositories here (CSS101, CSS201, JS201, flask101, ppap) are tutorial exercises from earlier years.
+Every course from both degrees, with grades and what each one taught me, is at [vramaswamy4.github.io/coursework](https://vramaswamy4.github.io/coursework/), including [Big Data Systems](https://vramaswamy4.github.io/coursework/#cs-544) (Kafka, Spark, Cassandra, HDFS, gRPC, BigQuery) and [Minirel](https://vramaswamy4.github.io/coursework/#cs-564) (a buffer manager and heap file manager in C++). The older repositories here (CSS101, CSS201, JS201, flask101, ppap) are tutorial exercises from earlier years.
 
 ## Skills
 
